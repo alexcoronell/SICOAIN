@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Roles</title>
+</head>
+
+<body>
+    <div class="container-fluid main-box">
+        <div class="title-page">
+            <h1>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Roles</h1>
+        </div>
+        <div class="main-content container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="menu-box">
+                        <div class="title-menu">
+                            <h2>Administración de Roles</h2>
+                        </div>
+                        <h1 class="display-4 text-center">SICOAIN</h1>
+                        <nav>
+                            <ul>
+                                <li class="active">Administración de Usuarios
+                                    <ul>
+                                        <li><a href="creacion_roles.html">Creación de Roles</a></li>
+                                        <li><a href="edicion_roles.html" class="active">Edición de Roles</a></li>
+                                        <li><a href="eliminacion_roles.html">Eliminación de Roles</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="btn btn-light salir-menu"><a href="principal.html">Regresar</a></button>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="box-formulario container mt-5">
+                        <h2 class="text-center title-formularios">Edición de Roles</h2>
+                        <form action="#">
+                            <div class="form-group row">
+                                <label for="rol" class="col-4">Buscar Rol: *</label>
+                                <div class="col-8">
+                                    <input type="search" class="form-control" name="buscarrol" id="buscarrol">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="rol" class="col-4">Nombre Rol: *</label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" name="rol" id="rol">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="descripcion" class="col-4">Descripción: *</label>
+                                <div class="col-8">
+                                    <textarea name="descripcion" id="descripcion" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4">Roles: *</label>
+                                <div class="col-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="rol1" value="rol1" checked>
+                                        <label class="form-check-label" for="rol1">Rol 1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="rol2" value="rol2">
+                                        <label class="form-check-label" for="rol2">Rol 2</label>
+                                    </div><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="rol3" value="rol3">
+                                        <label class="form-check-label" for="rol3">Rol 3</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="rol4" value="rol4" checked>
+                                        <label class="form-check-label" for="rol4">Rol 4</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="offset-4 col-4">
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="btn btn-light">Cancelar</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

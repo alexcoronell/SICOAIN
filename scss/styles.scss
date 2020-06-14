@@ -2,6 +2,7 @@ $maincolor: #4db6ac;
 $secondarycolor: #004d40;
 * {
     font-size: 16px;
+    text-decoration: none;
 }
 
 h1,
@@ -16,6 +17,10 @@ h6 {
 .main-box {
     padding: 0;
     min-height: 100vh;
+}
+
+.main-content>.row {
+    min-height: 90Vh;
 }
 
 .title-page {
@@ -64,6 +69,10 @@ h6 {
     opacity: .8;
 }
 
+.btn-light {
+    border-color: $maincolor;
+}
+
 .btn-primary:hover {
     opacity: 1;
 }
@@ -102,9 +111,24 @@ h6 {
     font-size: 2.5em;
 }
 
+nav>ul>li>ul>li>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav>ul>li>ul>li>a:hover {
+    text-decoration: none;
+    color: $secondarycolor;
+}
+
 ul {
     list-style: none;
     margin-left: -1.4em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .salir-menu {
@@ -126,5 +150,18 @@ ul {
 }
 
 .calendar>img {
-    margin-bottom: -4em;
+    margin-bottom: .5em;
+}
+
+// Formularios
+.box-formulario {
+    width: 450px;
+}
+
+.title-formularios {
+    font-size: 1.8em;
+}
+
+:checked {
+    background-color: $secondarycolor;
 }
