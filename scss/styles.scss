@@ -1,0 +1,74 @@
+$maincolor: #4db6ac;
+$secondarycolor: #004d40;
+* {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.1em;
+}
+
+.main-box {
+    padding: 0;
+    min-height: 100vh;
+}
+
+.title-page {
+    background-color: $maincolor;
+    border: 2px solid $secondarycolor;
+}
+
+.title-page>h1 {
+    margin: 0 1em;
+    line-height: 2em;
+}
+
+.login-box {
+    border: 2px solid $secondarycolor;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.title-login {
+    background-color: $maincolor;
+    border-bottom: 2px solid $secondarycolor;
+}
+
+.title-login>h2 {
+    margin: 0 1em;
+    line-height: 2em;
+}
+
+.form-inputs {
+    width: 70%;
+    margin: 2em auto;
+}
+
+.form-inputs>input {
+    margin: .5em auto;
+}
+
+.form-inputs>.btn {
+    width: 49%;
+}
+
+.btn-primary {
+    background-color: $maincolor !important;
+    border: none;
+    opacity: .8;
+}
+
+.btn-primary:hover {
+    opacity: 1;
+}
+
+.form-inputs>#salir {
+    display: inline-block;
+    margin-left: auto;
+}
