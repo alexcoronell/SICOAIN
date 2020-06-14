@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Compañías</title>
+</head>
+
+<body>
+    <div class="container-fluid main-box">
+        <div class="title-page">
+            <h1>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Compañías</h1>
+        </div>
+        <div class="main-content container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="menu-box">
+                        <div class="title-menu">
+                            <h2>Menú de Compañías</h2>
+                        </div>
+                        <h1 class="display-4 text-center">SICOAIN</h1>
+                        <nav>
+                            <ul>
+                                <li>Administración de Compañías
+                                    <ul>
+                                        <li><a href="creacion_companias.html">Creación de Compañías</a></li>
+                                        <li><a href="edicion_companias.html">Edición de Compañías</a></li>
+                                        <li><a href="eliminacion_companias.html" class="active">Eliminación de Compañías</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="btn btn-light salir-menu"><a href="principal.html">Regresar</a></button>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="box-formulario container mt-5">
+                        <h2 class="text-center title-formularios">Eliminación de Compañías</h2>
+                        <form action="#">
+                            <div class="form-group row">
+                                <label for="buscarcompania" class="col-4">Buscar:</label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" name="buscarcompania" id="buscarcompania">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="compania" class="col-4">Compañía:</label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" name="compania" id="compania">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="offset-4 col-4">
+                                    <button type="submit" class="btn btn-primary">Eliminar</button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="btn btn-light">Cancelar</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
