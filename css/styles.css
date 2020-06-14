@@ -69,5 +69,59 @@ h6 {
 .form-inputs > #salir {
   display: inline-block;
   margin-left: auto;
+  border-color: #4db6ac;
+}
+
+/* MENU PRINCIPAL */
+.menu-box {
+  margin-left: 2em;
+}
+
+.title-menu {
+  background-color: #4db6ac;
+  border-bottom: 2px solid #004d40;
+}
+
+.title-menu > h2 {
+  margin: 0 1em;
+  line-height: 2em;
+}
+
+.menu-box {
+  width: 75%;
+  margin-top: 1.5em;
+  border: 2px solid #004d40;
+  padding: 0;
+}
+
+.display-4 {
+  font-size: 2.5em;
+}
+
+ul {
+  list-style: none;
+  margin-left: -1.4em;
+}
+
+.salir-menu {
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: 0.8em;
+  margin-bottom: 0.8em;
+  border-color: #4db6ac;
+  padding-left: 2.2em;
+  padding-right: 2.2em;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.calendar > img {
+  margin-bottom: -4em;
 }
 /*# sourceMappingURL=styles.css.map */
