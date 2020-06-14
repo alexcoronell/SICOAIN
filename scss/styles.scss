@@ -14,6 +14,14 @@ h6 {
     font-size: 1.1em;
 }
 
+.active {
+    font-weight: bold;
+}
+
+.deshabilitado {
+    opacity: .6;
+}
+
 .main-box {
     padding: 0;
     min-height: 100vh;
@@ -162,6 +170,37 @@ ul {
     font-size: 1.8em;
 }
 
-:checked {
-    background-color: $secondarycolor;
+box-formulario-empleados {
+    width: 100%;
+}
+
+.box-formulario-empleados .col-6 {
+    padding-left: .1em;
+}
+
+.box-formulario-empleados label {
+    font-size: .8em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-formulario-empleados .form-group {
+    margin-top: .5em !important;
+    margin-bottom: .5em !important;
+}
+
+.box-formulario-empleados input,
+.box-formulario-empleados select {
+    padding: 0;
+    line-height: 1em;
+    height: 2em;
+}
+
+.box-formulario-empleados select {
+    text-align: center;
+}
+
+.empleados-col-1 label {
+    padding-left: 0;
+    padding-right: 0;
 }

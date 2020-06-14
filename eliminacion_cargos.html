@@ -12,7 +12,7 @@
     <!-- My Styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Roles</title>
+    <title>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Empleados y Cargos</title>
 </head>
 
 <body>
@@ -25,16 +25,23 @@
                 <div class="col-4">
                     <div class="menu-box">
                         <div class="title-menu">
-                            <h2>Administración de Roles</h2>
+                            <h2>Menú de Empleados</h2>
                         </div>
                         <h1 class="display-4 text-center">SICOAIN</h1>
                         <nav>
                             <ul>
-                                <li>Administración de Usuarios
+                                <li>Administración de Empleados
                                     <ul>
-                                        <li><a href="creacion_roles.html">Creación de Roles</a></li>
-                                        <li><a href="edicion_roles.html">Edición de Roles</a></li>
-                                        <li><a href="eliminacion_roles.html" class="active">Eliminación de Roles</a></li>
+                                        <li><a href="creacion_empleados.html">Creación de Empleados</a></li>
+                                        <li><a href="edicion_empleados.html">Edición de Empleados</a></li>
+                                        <li><a href="eliminacion_empleados.html">Eliminación de Empleados</a></li>
+                                    </ul>
+                                </li>
+                                <li>Administración de Cargos
+                                    <ul>
+                                        <li><a href="creacion_cargos.html">Creación de Cargos</a></li>
+                                        <li><a href="edicion_cargos.html">Edición de Cargos</a></li>
+                                        <li><a href="eliminacion_cargos.html" class="active">Eliminación de Cargos</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -44,23 +51,24 @@
                 </div>
                 <div class="col-8">
                     <div class="box-formulario container mt-5">
-                        <h2 class="text-center title-formularios">Eliminación de Roles</h2>
+                        <h2 class="text-center title-formularios">Eliminación de Cargos</h2>
                         <form action="#">
                             <div class="form-group row">
-                                <label for="rol" class="col-4">Buscar Rol: *</label>
+                                <label for="rol" class="col-4">Buscar cargo:</label>
                                 <div class="col-8">
-                                    <input type="search" class="form-control" name="buscarrol" id="buscarrol">
+                                    <input type="search" class="form-control" name="rol" id="rol">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="rol" class="col-4">Nombre Rol: *</label>
+                                <label for="cargo" class="col-4">Nombre Cargo:</label>
                                 <div class="col-8">
-                                    <input type="text" class="form-control" name="rol" id="rol">
+                                    <input type="text" class="form-control" name="cargo" id="cargo">
                                 </div>
                             </div>
+
                             <div class="form-group row">
                                 <div class="offset-4 col-4">
-                                    <button type="submit" class="btn btn-primary">Eliminar</button>
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
                                 </div>
                                 <div class="col-4">
                                     <button type="button" class="btn btn-light">Cancelar</button>
