@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Sucesos</title>
+</head>
+
+<body>
+    <div class="container-fluid main-box">
+        <div class="title-page">
+            <h1>SICOAIN - Sistema de Control de Accidentes e Incidentes - Administración de Incidentes</h1>
+        </div>
+        <div class="main-content container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="menu-box">
+                        <div class="title-menu">
+                            <h2>Menú de Incidentes y Sucesos</h2>
+                        </div>
+                        <h1 class="display-4 text-center">SICOAIN</h1>
+                        <nav>
+                            <ul>
+                                <li>Administración de Incidentes
+                                    <ul>
+                                        <li><a href="creacion_registro.html">Creación de Registro</a></li>
+                                        <li><a href="edicion_registro.html">Edición de Registro</a></li>
+                                        <li><a href="anulacion_registro">Anulación de Registro</a></li>
+                                    </ul>
+                                </li>
+                                <li>Administración de Sucesos
+                                    <ul>
+                                        <li><a href="creacion_sucesos.html">Creación de Sucesos</a></li>
+                                        <li><a href="edicion_sucesos.html">Edición de Sucesos</a></li>
+                                        <li><a href="eliminacion_sucesos.html" class="active">Eliminación de Sucesos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="btn btn-light salir-menu"><a href="principal.html">Regresar</a></button>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="box-formulario container mt-5">
+                        <h2 class="text-center title-formularios">Eliminación de Sucesos</h2>
+                        <form action="#">
+                            <div class="form-group row">
+                                <label for="buscarsuceso" class="col-4">Buscar:</label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" name="buscarsuceso" id="buscarsuceso">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="suceso" class="col-4">Nombre Suceso:</label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" name="suceso" id="suceso">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-4 col-4">
+                                    <button type="submit" class="btn btn-primary">Eliminar</button>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="btn btn-light">Cancelar</button>
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
